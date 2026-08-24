@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1787589348830,
+      "tag": "0000_thick_mantis",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1787589599277,
+      "tag": "0001_luxuriant_iron_patriot",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1787589680035,
+      "tag": "0002_milky_sugar_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1787590151385,
+      "tag": "0003_simple_quasar",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1787590485918,
+      "tag": "0004_strong_micromax",
+      "breakpoints": true
+    }
+  ]
+}

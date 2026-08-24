@@ -1,0 +1,30 @@
+# Project TODO
+
+- [x] Extend the relational schema for role-aware healthcare profiles, appointments, holds, clinical records, notifications, calendar links, and audit logs.
+- [x] Implement role-based authorization for Patient, Doctor, and Admin workflows with ownership checks.
+- [x] Implement concurrency-safe slot availability, five-minute holds, booking confirmation, cancellation, rescheduling, and leave conflict handling.
+- [x] Implement patient symptom intake, structured pre-visit summaries, post-visit summaries, and resilient LLM fallback behavior.
+- [x] Implement persistent notification records, retry/backoff, appointment reminders, medication reminders, and calendar integration states.
+- [x] Implement doctor and admin workflow operations, including working hours, slot durations, leave previews, clinical notes, prescriptions, and medication schedules.
+- [x] Build an accessible public landing page and role-aware responsive dashboards using the requested editorial healthcare aesthetic.
+- [x] Add automated tests for authorization, scheduling, holds, leave conflicts, LLM fallback, and notification retries.
+- [x] Create migrations, seed-ready demo configuration, Docker and environment setup, and technical documentation.
+- [x] Run type checks, automated tests, production build, schema migration, and visual verification before delivery.
+- [x] Strengthen slot reservation with explicit overlapping appointment and active-hold checks in addition to the unique slot-lock constraint.
+- [x] Create and process appointment-reminder notification records through the protected reconciliation workflow.
+- [x] Create medication-reminder schedules when a doctor prescribes medications and surface the schedule in the clinical workflow.
+- [x] Add tests for role authorization, hold expiry and confirmation, leave conflict handling, notification retry behavior, and database concurrency.
+- [x] Add a database-backed leave preview and confirmation integration test with affected appointment cancellation assertions.
+- [x] Document a hosted-environment template and complete the seed instructions for real OAuth-provisioned role assignment.
+- [x] Add a clinician-facing prescription form with medication reminder-time controls.
+- [x] Audit and strengthen end-to-end authentication, ownership isolation, concurrent booking, LLM failure, notification retry, leave, and Calendar fallback verification.
+- [x] Remove generated artifacts and scaffold-only files that are not required for runtime or source control, while preserving required framework assets.
+- [x] Audit package dependencies and remove only demonstrably unused project or scaffold packages.
+- [x] Create a safe environment-variable template and align all setup instructions with the actual hosted and standalone configuration.
+- [x] Validate Docker instructions and revise repository documentation to match the implemented MySQL, Drizzle, tRPC, OAuth, LLM, notification, and Calendar design.
+- [x] Run install, migration, seed, type checks, test suite, build, repository audit, and evaluator review before final delivery.
+- [x] Add a safe placeholder environment-template artifact compatible with public GitHub submission requirements.
+- [x] Add explicit Google Calendar fallback and patient or doctor authentication flow verification.
+- [x] Complete the final migration-status verification and strict evaluator PASS/FAIL review.
+- [x] Add the strongest automatable OAuth session and callback verification available in the managed environment, and document any live-login boundary.
+- [x] Add a conventional booking-route alias so direct `/booking` navigation is supported alongside the existing booking entry point.

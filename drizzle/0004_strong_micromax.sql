@@ -1,0 +1,2 @@
+ALTER TABLE `prescription_medications` ADD `reminderTime` varchar(5);--> statement-breakpoint
+ALTER TABLE `medication_reminders` ADD CONSTRAINT `reminder_medication_time_unique` UNIQUE(`prescriptionMedicationId`,`scheduledAt`);
